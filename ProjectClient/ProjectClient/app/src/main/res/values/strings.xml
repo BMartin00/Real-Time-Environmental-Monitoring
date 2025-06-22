@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Project-Client</string>
+    <string name="name_of_app">EnviroSense: Real-Time Environmental Monitoring</string>
+    <string name="created">Created by Martin Banyanszki 2025</string>
+    <string name="minTempText">Minimum Temperature (-30°C - 105°C)</string>
+    <string name="maxTempText">Maximum Temperature (-30°C - 105°C)</string>
+    <string name="minHumText">Minimum Humidity (0% - 100%)</string>
+    <string name="maxHumText">Maximum Humidity (0% - 100%)</string>
+    <string name="minPresText">Minimum Pressure (260hPa - 1260hPa)</string>
+    <string name="maxPresText">Maximum Pressure (260hPa - 1260hPa)</string>
+    <string name="timeIntervalText">Charts Time Interval (milliseconds)</string>
+</resources>
