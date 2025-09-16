@@ -1,6 +1,3 @@
-# Real-Time-Environmental-Monitoring
-Software Development for Connected Devices Year 2 Semester 2 Project
-
 # Sense HAT Real-Time Monitoring with Android App  
 
 ## 📌 Project Overview  
@@ -50,3 +47,52 @@ The Android app displays real-time sensor values, visualizes them in charts, and
 
 ---
 
+## 📂 Project Structure
+- /Main Branch
+  - project-server.py
+
+- /ProjectClient
+  - **MainActivity.java** # Displays real-time values and thresholds
+  - **ChartViewScreen.java** # Graph view for sensor data
+  - **SettingsScreen.java** # Update thresholds, IP, and port
+  - **WebSocketClientHandler.java** # Handles WebSocket connection
+  - **NotificationHelper.java** # Creates notifications
+  - **res/layout/** # XML UI layouts
+
+---
+
+## 🚀 Setup Instructions
+### 🔹 Raspberry Pi
+- Install required Python packages: pip install websockets sense-hat asyncio
+- Run the WebSocket server: python3 project-server.py
+- Note the Pi’s IP address and port (default: 8765)
+
+### 🔹 Android App 
+- Open the Android project in Android Studio.
+- Update the IP address and port in the app settings.
+- Run the app on an emulator or physical device (same network as the Pi).
+
+---
+
+## 📊 Example Usage
+- Launch the Python server on Raspberry Pi.
+- Open the Android app → set IP & port → go back to main screen.
+- Monitor real-time values.
+- Configure thresholds in the settings menu.
+- Receive alerts if readings are outside thresholds.
+
+---
+
+## 🔮 Future Enhancements
+- 📦 Database integration for storing historical sensor data.
+- 📑 Report generation (CSV/PDF export of logs).
+- 📡 Cloud integration (send sensor data to cloud services like AWS/Google Cloud).
+- 🔋 Energy optimization for mobile app and Pi.
+
+---
+
+## 👨‍💻 Author
+
+Developed as part of a Connected Devices project integrating IoT hardware with mobile applications.  
+Real-Time-Environmental-Monitoring  
+Software Development for Connected Devices Year 2 Semester 2 Project
